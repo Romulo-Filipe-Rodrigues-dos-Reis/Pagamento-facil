@@ -1,0 +1,260 @@
+{
+  "category": "Pagamento Fácil",
+  "tags": [
+    "pagina",
+    "pagamento",
+    "fácil"
+  ],
+  "data": {
+    "cells": [
+      1
+    ],
+    "columns": [
+      {
+        "contents": [
+          {
+            "type": "image",
+            "values": {
+              "containerPadding": "10px",
+              "src": {
+                "url": "https://s3.amazonaws.com/unroll-images-production/projects%2F16028%2F1618205901570-conta_itau_valor_fixo_150_reais.jpeg",
+                "width": 320,
+                "height": 320
+              },
+              "textAlign": "center",
+              "altText": "Imagem QR Code",
+              "action": {
+                "name": "web",
+                "values": {
+                  "href": "https://s3.amazonaws.com/unroll-images-production/projects%2F16028%2F1618205901570-conta_itau_valor_fixo_150_reais.jpeg",
+                  "target": "_blank"
+                },
+                "attrs": {
+                  "href": "{{href}}",
+                  "target": "{{target}}"
+                }
+              },
+              "hideDesktop": false,
+              "_meta": {
+                "htmlClassNames": "u_content_image"
+              },
+              "selectable": true,
+              "draggable": true,
+              "duplicatable": true,
+              "deletable": true
+            }
+          },
+          {
+            "type": "text",
+            "values": {
+              "containerPadding": "0px",
+              "color": "#ffffff",
+              "textAlign": "center",
+              "lineHeight": "140%",
+              "linkStyle": {
+                "inherit": true,
+                "linkColor": "#0000ee",
+                "linkHoverColor": "#0000ee",
+                "linkUnderline": true,
+                "linkHoverUnderline": true
+              },
+              "hideDesktop": false,
+              "_meta": {
+                "htmlClassNames": "u_content_text_1"
+              },
+              "selectable": true,
+              "draggable": true,
+              "duplicatable": true,
+              "deletable": true,
+              "text": "<p style=\"font-size: 14px; line-height: 140%;\"><span style=\"font-family: Montserrat, sans-serif; font-size: 14px; line-height: 19.6px;\">Leia o <strong>QR Code</strong> com seu</span></p>\n<p style=\"font-size: 14px; line-height: 140%;\"><span style=\"font-family: Montserrat, sans-serif; font-size: 14px; line-height: 19.6px;\">celular e efetue o pagamento</span></p>"
+            }
+          },
+          {
+            "type": "divider",
+            "values": {
+              "width": "100%",
+              "border": {
+                "borderTopWidth": "1px",
+                "borderTopStyle": "solid",
+                "borderTopColor": "#BBBBBB"
+              },
+              "textAlign": "center",
+              "containerPadding": "10px",
+              "hideDesktop": false,
+              "_meta": {
+                "htmlClassNames": "u_content_divider"
+              },
+              "selectable": true,
+              "draggable": true,
+              "duplicatable": true,
+              "deletable": true
+            }
+          },
+          {
+            "type": "text",
+            "values": {
+              "containerPadding": "2px",
+              "color": "#ffffff",
+              "textAlign": "center",
+              "lineHeight": "140%",
+              "linkStyle": {
+                "inherit": true,
+                "linkColor": "#0000ee",
+                "linkHoverColor": "#0000ee",
+                "linkUnderline": true,
+                "linkHoverUnderline": true
+              },
+              "hideDesktop": false,
+              "_meta": {
+                "htmlClassNames": "u_content_text_2"
+              },
+              "selectable": true,
+              "draggable": true,
+              "duplicatable": true,
+              "deletable": true,
+              "text": "<p style=\"font-size: 14px; line-height: 140%; text-align: center;\"><span style=\"font-family: Montserrat, sans-serif; font-size: 14px; line-height: 19.6px;\"><strong><span style=\"font-size: 28px; line-height: 39.2px;\">(12)996253133</span></strong></span></p>"
+            }
+          },
+          {
+            "type": "text",
+            "values": {
+              "containerPadding": "0px",
+              "color": "#ced4d9",
+              "textAlign": "center",
+              "lineHeight": "140%",
+              "linkStyle": {
+                "inherit": true,
+                "linkColor": "#0000ee",
+                "linkHoverColor": "#0000ee",
+                "linkUnderline": true,
+                "linkHoverUnderline": true,
+                "body": false
+              },
+              "hideDesktop": false,
+              "_meta": {
+                "htmlClassNames": "u_content_text_3"
+              },
+              "selectable": true,
+              "draggable": true,
+              "duplicatable": true,
+              "deletable": true,
+              "text": "<p style=\"font-size: 14px; line-height: 140%;\"><span style=\"font-family: Montserrat, sans-serif; font-size: 12px; line-height: 16.8px;\">Copie e cole este n&uacute;mero</span></p>\n<p style=\"font-size: 14px; line-height: 140%;\"><span style=\"font-family: Montserrat, sans-serif; font-size: 12px; line-height: 16.8px;\">&nbsp;e fa&ccedil;a o pagamento </span></p>\n<p style=\"font-size: 14px; line-height: 140%;\"><span style=\"font-family: Montserrat, sans-serif; font-size: 12px; line-height: 16.8px;\">no seu pix <span style=\"color: #3598db; line-height: 16.8px; font-size: 12px;\"><strong>CAIXA tem</strong></span></span></p>"
+            }
+          },
+          {
+            "type": "button",
+            "values": {
+              "containerPadding": "7px",
+              "href": {
+                "name": "web",
+                "values": {
+                  "href": "https://play.google.com/store/apps/details?id=br.gov.caixa.tem",
+                  "target": "_blank"
+                },
+                "attrs": {
+                  "href": "{{href}}",
+                  "target": "{{target}}"
+                }
+              },
+              "buttonColors": {
+                "color": "#f8eded",
+                "backgroundColor": "#34bcf6",
+                "hoverColor": "#ffffff",
+                "hoverBackgroundColor": "#049fee"
+              },
+              "size": {
+                "autoWidth": true,
+                "width": "100%"
+              },
+              "textAlign": "center",
+              "lineHeight": "120%",
+              "padding": "12px 17px",
+              "border": {
+                "borderTopWidth": "1px",
+                "borderTopStyle": "solid",
+                "borderTopColor": "#95a5a6",
+                "borderLeftWidth": "1px",
+                "borderLeftStyle": "solid",
+                "borderLeftColor": "#95a5a6",
+                "borderRightWidth": "1px",
+                "borderRightStyle": "solid",
+                "borderRightColor": "#95a5a6",
+                "borderBottomWidth": "1px",
+                "borderBottomStyle": "solid",
+                "borderBottomColor": "#95a5a6"
+              },
+              "borderRadius": "5px",
+              "hideDesktop": false,
+              "_meta": {
+                "htmlClassNames": "u_content_button_1"
+              },
+              "selectable": true,
+              "draggable": true,
+              "duplicatable": true,
+              "deletable": true,
+              "text": "<span style=\"font-family: Montserrat, sans-serif; font-size: 16px; line-height: 19.2px;\"><strong><span style=\"line-height: 19.2px; font-size: 16px;\">CAIXA Tem</span></strong></span>",
+              "calculatedWidth": 127,
+              "calculatedHeight": 43
+            }
+          },
+          {
+            "type": "text",
+            "values": {
+              "containerPadding": "10px",
+              "color": "#ffffff",
+              "textAlign": "center",
+              "lineHeight": "140%",
+              "linkStyle": {
+                "inherit": false,
+                "linkColor": "#ffffff",
+                "linkHoverColor": "#4bb3f6",
+                "linkUnderline": false,
+                "linkHoverUnderline": false,
+                "body": false
+              },
+              "hideDesktop": false,
+              "_meta": {
+                "htmlClassNames": "u_content_text_4"
+              },
+              "selectable": true,
+              "draggable": true,
+              "duplicatable": true,
+              "deletable": true,
+              "text": "<p style=\"font-size: 14px; line-height: 140%;\"><strong><span style=\"font-size: 8px; line-height: 11.2px; font-family: Montserrat, sans-serif;\">SDexpress Brasil&trade; - All Rights Reserved</span></strong></p>\n<p style=\"font-size: 14px; line-height: 140%;\"><span style=\"font-size: 8px; line-height: 11.2px;\"><a href=\"https://savee.it/romulo_filipe_rodrigues_dos_reis/\" target=\"_blank\" rel=\"noopener\" data-u-link-value=\"eyJuYW1lIjoid2ViIiwiYXR0cnMiOnsiaHJlZiI6Int7aHJlZn19IiwidGFyZ2V0Ijoie3t0YXJnZXR9fSJ9LCJ2YWx1ZXMiOnsiaHJlZiI6Imh0dHBzOi8vc2F2ZWUuaXQvcm9tdWxvX2ZpbGlwZV9yb2RyaWd1ZXNfZG9zX3JlaXMvIiwidGFyZ2V0IjoiX2JsYW5rIn19\">Design by Romulo Filipe Rodrigues dos Reis</a></span></p>"
+            }
+          }
+        ],
+        "values": {
+          "_meta": {
+            "htmlClassNames": "u_column"
+          },
+          "backgroundColor": "#000000",
+          "padding": "0px"
+        }
+      }
+    ],
+    "values": {
+      "displayCondition": null,
+      "columns": false,
+      "backgroundColor": "",
+      "columnsBackgroundColor": "#ffffff",
+      "backgroundImage": {
+        "url": "",
+        "fullWidth": true,
+        "repeat": false,
+        "center": true,
+        "cover": false
+      },
+      "padding": "0px",
+      "hideDesktop": false,
+      "_meta": {
+        "htmlClassNames": "u_row"
+      },
+      "selectable": true,
+      "draggable": true,
+      "duplicatable": true,
+      "deletable": true
+    }
+  },
+  "displayMode": "web"
+}
